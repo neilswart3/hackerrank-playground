@@ -5,15 +5,6 @@ import repeatedString from './repeatedString';
 
 import hourglassSum from './hourglassSum';
 
-const hourglassTest1 = hourglassSum([
-  [1, 1, 1, 0, 0, 0],
-  [0, 1, 0, 0, 0, 0],
-  [1, 1, 1, 0, 0, 0],
-  [0, 0, 2, 4, 4, 0],
-  [0, 0, 0, 2, 0, 0],
-  [0, 0, 1, 2, 4, 0],
-]);
-
 // const socksTest1 = sockMerchant(7, [1, 2, 1, 2, 1, 3, 2, 4]);
 // const socksTest2 = sockMerchant(9, [10, 20, 20, 10, 10, 30, 50, 10, 20]);
 
@@ -37,3 +28,12 @@ const hourglassTest1 = hourglassSum([
 
 // console.log('test1:', test1);
 // console.log('test2:', test2);
+
+const hourglassTest1 = hourglassSum([
+  [1, 1, 1, 0, 0, 0],
+  [0, 1, 0, 0, 0, 0],
+  [1, 1, 1, 0, 0, 0],
+  [0, 0, 2, 4, 4, 0],
+  [0, 0, 0, 2, 0, 0],
+  [0, 0, 1, 2, 4, 0],
+]);
