@@ -108,3 +108,18 @@
 // const test1 = findMedian([0, 1, 2, 4, 6, 5, 3]);
 
 // console.log('test1:', test1);
+
+// import plusMinus from './plusMinus';
+
+// plusMinus([-4, 3, -9, 0, 4, 1]);
+
+// import minMaxSum from './minMaxSum';
+
+// // minMaxSum([1, 3, 5, 7, 9]);
+// // minMaxSum([1, 2, 3, 4, 5]);
+// minMaxSum([7, 69, 2, 221, 8974]);
+
+import timeConversion from './timeConversion';
+
+const timeTest1 = timeConversion('12:01:00PM');
+const timeTest2 = timeConversion('07:05:45PM');
