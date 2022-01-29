@@ -1,9 +1,16 @@
-import sockMerchant from './sockMerchant';
-import countingValleys from './countingValleys';
-import jumpingOnClouds from './jumpingOnClouds';
-import repeatedString from './repeatedString';
+// import sockMerchant from './sockMerchant';
+// import countingValleys from './countingValleys';
+// import jumpingOnClouds from './jumpingOnClouds';
+// import repeatedString from './repeatedString';
 
-import hourglassSum from './hourglassSum';
+// import hourglassSum from './hourglassSum';
+// import rotLeft from './rotLeft';
+// import minimumBribes from './minimumBribes';
+
+// import checkMagazine from './checkMagazine';
+// import twoStrings from './twoStrings';
+// import sherlockAndAnagrams from './sherlockAndAnagrams';
+// import countSwaps from './countSwaps';
 
 // const socksTest1 = sockMerchant(7, [1, 2, 1, 2, 1, 3, 2, 4]);
 // const socksTest2 = sockMerchant(9, [10, 20, 20, 10, 10, 30, 50, 10, 20]);
@@ -29,11 +36,75 @@ import hourglassSum from './hourglassSum';
 // console.log('test1:', test1);
 // console.log('test2:', test2);
 
-const hourglassTest1 = hourglassSum([
-  [1, 1, 1, 0, 0, 0],
-  [0, 1, 0, 0, 0, 0],
-  [1, 1, 1, 0, 0, 0],
-  [0, 0, 2, 4, 4, 0],
-  [0, 0, 0, 2, 0, 0],
-  [0, 0, 1, 2, 4, 0],
-]);
+// const hourglassTest1 = hourglassSum([
+//   [1, 1, 1, 0, 0, 0],
+//   [0, 1, 0, 0, 0, 0],
+//   [1, 1, 1, 0, 0, 0],
+//   [0, 0, 2, 4, 4, 0],
+//   [0, 0, 0, 2, 0, 0],
+//   [0, 0, 1, 2, 4, 0],
+// ]);
+// const hourglassTest2 = hourglassSum([
+//   [1, 1, 1, 0, 0, 0],
+//   [0, 1, 0, 0, 0, 0],
+//   [1, 1, 1, 0, 0, 0],
+//   [0, 9, 2, -4, -4, 0],
+//   [0, 0, 0, -2, 0, 0],
+//   [0, 0, -1, -2, -4],
+// ]);
+// const hourglassTest3 = hourglassSum([
+//   [-1, 1, -1, 0, 0, 0],
+//   [0, -1, 0, 0, 0, 0],
+//   [-1, -1, -1, 0, 0, 0],
+//   [0, -9, 2, -4, -4, 0],
+//   [-7, 0, 0, -2, 0, 0],
+//   [0, 0, -1, -2, -4, 0],
+// ]);
+
+// console.log('hourglassTest1:', hourglassTest1);
+// console.log('hourglassTest2:', hourglassTest2);
+// console.log('hourglassTest3:', hourglassTest3);
+
+// const rotLeftTest1 = rotLeft([1, 2, 3, 4, 5], 4);
+
+// minimumBribes([2, 1, 5, 3, 4]);
+// minimumBribes([2, 5, 1, 3, 4]);
+
+// minimumBribes([2, 5, 1, 4, 3]);
+// minimumBribes([1, 2, 5, 3, 7, 8, 6, 4]);
+
+// checkMagazine(
+//   ['give', 'me', 'one', 'grand', 'today', 'night'],
+//   ['give', 'one', 'grand', 'today']
+// );
+
+// checkMagazine(
+//   ['two', 'times', 'three', 'is', 'not', 'four'],
+//   ['two', 'times', 'two', 'is', 'four']
+// );
+
+// checkMagazine(
+//   ['ive', 'got', 'a', 'lovely', 'bunch', 'of', 'coconuts'],
+//   ['ive', 'got', 'some', 'coconuts']
+// );
+
+// const twoStringsTest1 = twoStrings('hello', 'world');
+// const twoStringsTest2 = twoStrings('hi', 'world');
+
+// console.log('twoStringsTest1:', twoStringsTest1);
+// console.log('twoStringsTest2:', twoStringsTest2);
+
+// const anagramTest1 = sherlockAndAnagrams()
+
+// countSwaps([1, 2, 3]);
+// const countSwapsTest2 = countSwaps([3, 2, 1]);
+
+// import fizzBuzz from './fizzBuzz';
+
+// fizzBuzz(15);
+
+// import findMedian from './findMedian';
+
+// const test1 = findMedian([0, 1, 2, 4, 6, 5, 3]);
+
+// console.log('test1:', test1);

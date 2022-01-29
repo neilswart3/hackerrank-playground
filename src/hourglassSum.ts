@@ -7,11 +7,7 @@ function hourglassSum(arr: number[][]): number {
     const rowAfterNext = arr[row + 2];
 
     for (let i = 0; i < rowCurrent.length; i++) {
-      console.log('rowCurrent:', rowCurrent[i + 2]);
-      console.log('rowAfterNext:', rowAfterNext[i + 2]);
-
-      if (!!rowCurrent[i + 2] && !!rowAfterNext[i + 2]) {
-        console.log('test');
+      if (rowAfterNext && rowAfterNext[1 + 2]) {
         const top = rowCurrent[i] + rowCurrent[i + 1] + rowCurrent[i + 2];
         const middle = rowNext[i + 1];
         const bottom =
@@ -24,13 +20,11 @@ function hourglassSum(arr: number[][]): number {
         }
       }
     }
-    // console.log('hourGlassSumArray:', hourGlassSumArray);
   }
 
-  console.log('bal');
-  console.log('hourGlassSumArray:', hourGlassSumArray);
+  const [largest] = hourGlassSumArray.sort((a, b) => b - a);
 
-  return 7;
+  return largest;
 }
 
 export default hourglassSum;
