@@ -119,7 +119,11 @@
 // // minMaxSum([1, 2, 3, 4, 5]);
 // minMaxSum([7, 69, 2, 221, 8974]);
 
-import timeConversion from './timeConversion';
+// import timeConversion from './timeConversion';
 
-const timeTest1 = timeConversion('12:01:00PM');
-const timeTest2 = timeConversion('07:05:45PM');
+// const timeTest1 = timeConversion('12:01:00PM');
+// const timeTest2 = timeConversion('07:05:45PM');
+
+// import lonelyInteger from './lonelyInteger';
+
+// lonelyInteger([1, 2, 3, 4, 3, 2, 1]);
