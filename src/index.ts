@@ -127,3 +127,20 @@
 // import lonelyInteger from './lonelyInteger';
 
 // lonelyInteger([1, 2, 3, 4, 3, 2, 1]);
+
+import diagonalDifference from './diagonalDifference';
+
+const diagDiffTest1 = diagonalDifference([
+  [1, 2, 3],
+  [4, 5, 6],
+  [9, 8, 9],
+]);
+console.log('diagDiffTest1:', diagDiffTest1);
+
+const diagDiffTest2 = diagonalDifference([
+  [11, 2, 4],
+  [4, 5, 6],
+  [10, 8, -12],
+]);
+
+console.log('diagDiffTest2:', diagDiffTest2);
